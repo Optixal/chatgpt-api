@@ -489,7 +489,7 @@ export const defaultChromeExecutablePath = (): string => {
 
       return chromeExists
         ? '/usr/bin/google-chrome'
-        : '/usr/bin/google-chrome-stable'
+        : '/usr/bin/chromium-browser'
     }
   }
 }
