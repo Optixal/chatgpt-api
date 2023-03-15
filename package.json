@@ -30,7 +30,7 @@
     "predev": "run-s clean",
     "pretest": "run-s build",
     "docs": "typedoc",
-    "prepare": "npm run build",
+    "prepare": "tsup",
     "pre-commit": "lint-staged",
     "test": "run-p test:*",
     "test:prettier": "prettier '**/*.{js,jsx,ts,tsx}' --check"
