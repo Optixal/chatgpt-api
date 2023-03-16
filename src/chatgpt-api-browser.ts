@@ -470,8 +470,8 @@ export class ChatGPTAPIBrowser extends AChatGPTAPI {
       model: model
         ? model
         : this._isProAccount
-        ? 'text-davinci-002-render-paid'
-        : 'text-davinci-002-render-sha',
+        ? 'text-davinci-002-render-sha'
+        : 'text-davinci-002-render-paid',
       parent_message_id: parentMessageId
     }
 
